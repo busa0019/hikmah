@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday! | Celebrating Our Amazing Sister</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --primary: #9c27b0;
+            --secondary: #2196f3;
+            --accent: #4caf50;
+            --light: #fff9f9;
+            --dark: #333;
+            --gold: #ffd700;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f5f5f5 0%, #e3f2fd 100%);
+            color: var(--dark);
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border-radius: 20px;
+            margin: 20px 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.1" d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,213.3C672,192,768,128,864,128C960,128,1056,192,1152,192C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+            background-size: cover;
+            background-position: center;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .islamic-pattern {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0.1;
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23000000' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+
+        /* Section Styling */
+        section {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 30px 0;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: var(--primary);
+            margin-bottom: 25px;
+            font-size: 2.2rem;
+            border-bottom: 3px solid var(--accent);
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        /* Message Section */
+        .message {
+            line-height: 1.8;
+            font-size: 1.2rem;
+        }
+
+        .message p {
+            margin-bottom: 20px;
+        }
+
+        /* Photo Gallery */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .photo {
+            height: 250px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            position: relative;
+        }
+
+        .photo::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .photo span {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .photo:hover {
+            transform: scale(1.05);
+        }
+
+        /* Messages from Family */
+        .family-messages {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .message-card {
+            background: var(--light);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border-left: 5px solid var(--accent);
+            transition: transform 0.3s ease;
+        }
+
+        .message-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .message-card h3 {
+            color: var(--secondary);
+            margin-bottom: 10px;
+            font-size: 1.4rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .message-card h3 i {
+            margin-right: 10px;
+            color: var(--primary);
+        }
+
+        /* Memory Lane */
+        .memory {
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+            border-bottom: 1px dashed #ddd;
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .memory:last-child {
+            border-bottom: none;
+        }
+
+        .memory::before {
+            content: "★";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: var(--gold);
+            font-size: 1.5rem;
+        }
+
+        .memory h3 {
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+
+        /* Interactive Element */
+        .interactive {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .birthday-button {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.3rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .birthday-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .wish-message {
+            margin-top: 30px;
+            padding: 20px;
+            background: var(--light);
+            border-radius: 15px;
+            display: none;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            border: 2px dashed var(--accent);
+        }
+
+        .prayer-section {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            border-left: 5px solid var(--gold);
+        }
+
+        .prayer-section h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .prayer-section h3 i {
+            margin-right: 10px;
+        }
+
+        /* Music Player Section */
+        .music-player {
+            background: linear-gradient(135deg, #e1f5fe, #f3e5f5);
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .music-player::before {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
+            animation: pulse 4s infinite;
+        }
+
+        .music-player h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .music-player p {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .audio-player {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            position: relative;
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .player-controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 15px;
+        }
+
+        .player-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .player-btn:hover {
+            transform: scale(1.1);
+            background: var(--secondary);
+        }
+
+        .progress-container {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            width: 0%;
+            transition: width 0.1s linear;
+        }
+
+        .time-info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .song-info {
+            margin-top: 15px;
+            font-style: italic;
+            color: var(--primary);
+        }
+
+        .playlist {
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .playlist h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .playlist-item {
+            padding: 12px 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.7);
+        }
+
+        .playlist-item:hover {
+            background: rgba(255, 255, 255, 0.9);
+            transform: translateX(5px);
+        }
+
+        .playlist-item.active {
+            background: var(--primary);
+            color: white;
+        }
+
+        .playlist-item i {
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+
+        .song-details {
+            flex-grow: 1;
+        }
+
+        .song-title {
+            font-weight: bold;
+        }
+
+        .song-artist {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(0.8); opacity: 0.8; }
+            50% { transform: scale(1.2); opacity: 0.4; }
+            100% { transform: scale(0.8); opacity: 0.8; }
+        }
+
+        /* Special Message Section */
+        .special-message {
+            background: linear-gradient(135deg, #e1f5fe, #f3e5f5);
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .special-message h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .special-message p {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            position: relative;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--dark);
+            margin-top: 40px;
+            font-size: 1.1rem;
+            border-top: 1px solid #ddd;
+        }
+
+        .arabic-blessing {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            
+            header p {
+                font-size: 1.2rem;
+            }
+            
+            section {
+                padding: 25px;
+            }
+            
+            h2 {
+                font-size: 1.8rem;
+            }
+            
+            .gallery {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+            
+            .family-messages {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Animation for confetti */
+        @keyframes confetti-fall {
+            0% { transform: translateY(-100px) rotate(0deg); opacity: 1; }
+            100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+        }
+
+        .confetti {
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            top: -10px;
+            opacity: 0.7;
+            animation: confetti-fall 5s linear infinite;
+            z-index: 1000;
+        }
+
+        .confetti:nth-child(2n) {
+            background: var(--secondary);
+        }
+
+        .confetti:nth-child(3n) {
+            background: var(--accent);
+        }
+        .confetti:nth-child(4n) {
+            background: var(--gold);
+        }
+        .confetti:nth-child(5n) {
+            background: #ff6b8b;
+        }
+    </style>
+</head>
+<body>
+    <!-- Confetti Animation -->
+    <div id="confetti-container"></div>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <div class="islamic-pattern"></div>
+            <h1>Happy Birthday!</h1>
+            <p>Even though we're miles apart, you're always in our hearts. Celebrating you today and always!</p>
+            <div class="arabic-blessing">بارك الله فيك وجعل أيامك كلها فرح وسرور</div>
+        </header>
+
+        <!-- Main Message Section -->
+        <section id="message">
+            <h2>A Special Message</h2>
+            <div class="message">
+                <p>Dear Sister,</p>
+                <p>On your special day, we wanted to create something that shows just how much you mean to us and how much we wish we could be there to celebrate with you in person.</p>
+                <p>You've always been our rock, our confidante, and our best friend. Even though distance separates us, our bond remains as strong as ever. We're so proud of the person you are and everything you've accomplished.</p>
+                <p>Today, we hope you feel all the love and happiness you deserve. May this year bring you endless joy, success in all your endeavors, and moments that take your breath away.</p>
+                <p>With all our love,</p>
+                <p>The Hameed Family</p>
+            </div>
+        </section>
+
+        <!-- Photo Gallery -->
+        <section id="gallery">
+            <h2>Our Beautiful Memories</h2>
+            <div class="gallery">
+                <div class="photo" style="background-image: url('6.jpg')">
+                    <span>Beautiful Moments</span>
+                </div>
+                <div class="photo" style="background-image: url('3.jpg')">
+                    <span>Family Love</span>
+                </div>
+                <div class="photo" style="background-image: url('7.jpg')">
+                    <span>Special Times</span>
+                </div>
+                <div class="photo" style="background-image: url('8.jpg')">
+                    <span>Joyful Memories</span>
+                </div>
+                <div class="photo" style="background-image: url('9.jpg')">
+                    <span>Together Forever</span>
+                </div>
+                <div class="photo" style="background-image: url('10.jpg')">
+                    <span>Celebrating You</span>
+                </div>
+                <div class="photo" style="background-image: url('11.jpg')">
+                    <span>Precious Moments</span>
+                </div>
+                <div class="photo" style="background-image: url('12.jpg')">
+                    <span>Family Bond</span>
+                </div>
+                <div class="photo" style="background-image: url('2.jpg')">
+                    <span>Unforgettable Times</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Messages from Family -->
+        <section id="family-messages">
+            <h2>Messages from Family</h2>
+            <div class="family-messages">
+                <div class="message-card">
+                    <h3><i class="fas fa-heart"></i> Mom</h3>
+                    <p>My dear daughter, may Allah bless you with a long life filled with happiness, health, and success. You've grown into such a wonderful woman and I'm so proud of you. May all your dreams come true. بارك الله فيك</p>
+                </div>
+                <div class="message-card">
+                    <h3><i class="fas fa-star"></i> Mahfus</h3>
+                    <p>To my amazing sister, happy birthday! Even though we fight and dont talk always, you're always close to my heart. May Allah grant you all the happiness in this world and the next.</p>
+                </div>
+                <div class="message-card">
+                    <h3><i class="fas fa-smile"></i> Faoziyyah</h3>
+                    <p>Happy birthday to the best sister ever! I miss our ordering of food and constant banter. May this year bring you closer to all your goals and fill your life with barakah.</p>
+                </div>
+                <div class="message-card">
+                    <h3><i class="fas fa-child"></i> Affan & Afnan</h3>
+                    <p>Happy Birthday, Big Mummy! We miss you so much and wish we could celebrate with you. We love you! Hoping to see you soon!</p>
+                </div>
+                <div class="message-card">
+                    <h3><i class="fas fa-hands-helping"></i> America</h3>
+                    <p>Happy birthday, sis! Wishing you a day as wonderful as you are. May Allah shower you with countless blessings and protect you always.</p>
+                </div>
+                <div class="message-card">
+                    <h3><i class="fas fa-pray"></i> Khadija</h3>
+                    <p>Happy birthday! May God's grace and blessings be upon you today and always. Wishing you joy, peace, and all the best things in life.</p>
+                </div>
+                <div class="message-card">
+                    <h3><i class="fas fa-praying-hands"></i> Toyin</h3>
+                    <p>Wishing you a blessed birthday filled with God's love and grace. May He guide your path and fill your life with purpose and joy.</p>
+                </div>
+                <div class="message-card">
+                    <h3><i class="fas fa-heart"></i> Hafsat</h3>
+                    <p>Happy birthday to my boss! May Allah accept all your good deeds and grant you Jannatul Firdaus. You're an inspiration to us all.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Memory Lane -->
+        <section id="memories">
+            <h2>Memory Lane</h2>
+            <div class="memory">
+                <h3>Airport Goodbye</h3>
+                <p>Remember when you escorted me to the airport when I was leaving Nigeria? Your support meant the world to me, and I felt so loved as you waved goodbye.</p>
+            </div>
+            <div class="memory">
+                <h3>Wedding Preparations</h3>
+                <p>I'll never forget how excited we were preparing for my wedding, choosing our outfits and organizing everything. Your attention to detail made the day so special.</p>
+            </div>
+            <div class="memory">
+                <h3>When I First Moved to Canada</h3>
+                <p>Remember when I first got to Canada and had to call you to teach me food I can't prepare? Your patience and guidance made all the difference.</p>
+            </div>
+            <div class="memory">
+                <h3>When You Met the Twins for the First Time</h3>
+                <p>Your face lit up with so much joy when you saw Affan and Afnan for the first time. You've been rooting for them right before they came out, and your excitement was contagious.</p>
+            </div>
+        </section>
+
+        <!-- Music Player Section -->
+        <section id="music">
+            <div class="music-player">
+                <h2>Your Birthday Playlist</h2>
+                <p>I've curated a special playlist for your birthday. Press play and let the music fill your day with joy!</p>
+                
+                <div class="audio-player">
+                    <div class="player-controls">
+                        <button class="player-btn" id="prev-btn">
+                            <i class="fas fa-step-backward"></i>
+                        </button>
+                        <button class="player-btn" id="play-pause">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <button class="player-btn" id="next-btn">
+                            <i class="fas fa-step-forward"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="progress-container" id="progress-container">
+                        <div class="progress-bar" id="progress-bar"></div>
+                    </div>
+                    
+                    <div class="time-info">
+                        <span id="current-time">0:00</span>
+                        <span id="duration">0:00</span>
+                    </div>
+                    
+                    <div class="song-info">
+                        <p>Now Playing: <strong id="current-song">Dandelion</strong> by <span id="current-artist">Ruth B</span></p>
+                    </div>
+                </div>
+                
+                <div class="playlist">
+                    <h3>Birthday Playlist</h3>
+                    <div class="playlist-item active" data-src="dandelion.mp3" data-title="Dandelion" data-artist="Ruth B">
+                        <i class="fas fa-music"></i>
+                        <div class="song-details">
+                            <div class="song-title">Dandelion</div>
+                            <div class="song-artist">Ruth B</div>
+                        </div>
+                    </div>
+                    <div class="playlist-item" data-src="happy-birthday.mp3" data-title="Happy Birthday" data-artist="Traditional">
+                        <i class="fas fa-music"></i>
+                        <div class="song-details">
+                            <div class="song-title">Happy Birthday</div>
+                            <div class="song-artist">Traditional</div>
+                        </div>
+                    </div>
+                    <div class="playlist-item" data-src="celebration.mp3" data-title="Celebration" data-artist="Kool & The Gang">
+                        <i class="fas fa-music"></i>
+                        <div class="song-details">
+                            <div class="song-title">Celebration</div>
+                            <div class="song-artist">Kool & The Gang</div>
+                        </div>
+                    </div>
+                    <div class="playlist-item" data-src="best-day.mp3" data-title="Best Day Of My Life" data-artist="American Authors">
+                        <i class="fas fa-music"></i>
+                        <div class="song-details">
+                            <div class="song-title">Best Day Of My Life</div>
+                            <div class="song-artist">American Authors</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="song-message">Like dandelions carried by the wind, may all your dreams take flight and find beautiful places to grow.</p>
+            </div>
+        </section>
+
+        <!-- Special Message Section -->
+        <section id="special-message">
+            <div class="special-message">
+                <h2>A Heartfelt Message Just For You</h2>
+                <p>My dearest sister, on your special day, I want you to know that even though we're separated by miles, you're always in my thoughts and prayers. Every day, I make dua for your happiness, success, and well-being.</p>
+                <p>You've grown into an incredible woman who balances faith, family, and career with such grace. I admire your strength, your compassion, and the way you always put others before yourself.</p>
+                <p>May Allah SWT accept all your good deeds, answer your prayers, and grant you a place in Jannatul Firdaus. May He bless you with a long, healthy life filled with love, laughter, and countless blessings.</p>
+                <p>I can't wait for the day when we can be together again, sharing stories, creating new memories, and laughing until our stomachs hurt like we used to.</p>
+                <div class="arabic-blessing">جعلك الله من أهل الجنة وبارك في عمرك</div>
+            </div>
+        </section>
+
+        <!-- Interactive Element -->
+        <section id="interactive" class="interactive">
+            <h2>Make a Birthday Wish!</h2>
+            <button class="birthday-button" id="wish-button">Click for Special Birthday Wishes & Prayers</button>
+            <div class="wish-message" id="wish-message">
+                <p>My dearest wish for you is a year filled with laughter that echoes through your home, adventures that excite your soul, moments of peace that restore your spirit, and love that surrounds you every single day. May Allah SWT grant all your righteous wishes and bless you with happiness in this life and the hereafter. May all your dreams take flight and may you always remember how incredibly loved you are!</p>
+                
+                <div class="prayer-section">
+                    <h3><i class="fas fa-pray"></i> A Special Prayer for You</h3>
+                    <p>May Allah bless you with good health, abundant rizq, and contentment in your heart. May He remove all difficulties from your path and replace them with ease and success. May your faith grow stronger with each passing day, and may you find peace in His remembrance.</p>
+                </div>
+                
+                <div class="prayer-section">
+            <h3><i class="fas fa-baby"></i> A Prayer for Your Future Children</h3>
+            <p>May Allah bless you with the gift of motherhood and grant you beautiful, healthy children who will be the coolness of your eyes. May He bless you with twins who will double your joy and fill your home with laughter and love. May your children grow up to be righteous Muslims, sources of pride and happiness, and may you witness all their beautiful milestones with your own eyes.</p>
+            <p class="arabic-blessing">اللهم ارزقها ذرية صالحة واجعلهم قرة عين لها</p>
+        </div>
+        
+        <div class="arabic-blessing">تقبل الله منا ومنكم صالح الأعمال</div>
+    </div>
+</section>
+
+    <div class="footer">
+        <footer>
+            <p>Made with ❤️ for the best sister in the world</p>
+            <p>بارك الله فيك وجزاك الله خيرا</p>
+        </footer>
+
+        <script>
+            // Interactive birthday wish button
+            document.getElementById('wish-button').addEventListener('click', function() {
+            const wishMessage = document.getElementById('wish-message');
+            wishMessage.style.display = 'block';
+            createConfettiBurst();
+            
+            // Scroll to the wish message
+            wishMessage.scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // Create continuous confetti
+        function createContinuousConfetti() {
+            const container = document.getElementById('confetti-container');
+            const colors = ['#9c27b0', '#2196f3', '#4caf50', '#ffd700', '#ff9800', '#ff6b8b'];
+            
+            // Create confetti at regular intervals
+            setInterval(() => {
+                for (let i = 0; i < 5; i++) {
+                    const confetti = document.createElement('div');
+                    confetti.className = 'confetti';
+                    confetti.style.left = Math.random() * 100 + 'vw';
+                    confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                    confetti.style.width = Math.random() * 10 + 5 + 'px';
+                    confetti.style.height = Math.random() * 10 + 5 + 'px';
+                    confetti.style.animationDuration = Math.random() * 3 + 3 + 's';
+                    confetti.style.animationDelay = Math.random() * 2 + 's';
+                    container.appendChild(confetti);
+                    
+                    // Remove confetti after animation completes
+                    setTimeout(() => {
+                        if (confetti.parentNode) {
+                            confetti.remove();
+                        }
+                    }, 5000);
+                }
+            }, 200);
+        }
+
+        // Create a burst of confetti (for button click)
+        function createConfettiBurst() {
+            const container = document.getElementById('confetti-container');
+            const colors = ['#9c27b0', '#2196f3', '#4caf50', '#ffd700', '#ff9800', '#ff6b8b'];
+            
+            for (let i = 0; i < 50; i++) {
+                const confetti = document.createElement('div');
+                confetti.className = 'confetti';
+                confetti.style.left = Math.random() * 100 + 'vw';
+                confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                confetti.style.width = Math.random() * 10 + 5 + 'px';
+                confetti.style.height = Math.random() * 10 + 5 + 'px';
+                confetti.style.animationDuration = Math.random() * 3 + 2 + 's';
+                confetti.style.animationDelay = Math.random() * 1 + 's';
+                container.appendChild(confetti);
+                
+                // Remove confetti after animation completes
+                setTimeout(() => {
+                    if (confetti.parentNode) {
+                        confetti.remove();
+                    }
+                }, 5000);
+            }
+        }
+
+        // Start continuous confetti when page loads
+        window.addEventListener('load', function() {
+            createContinuousConfetti();
+        });
+
+        // Music Player Functionality
+        const audio = new Audio();
+        const playPauseBtn = document.getElementById('play-pause');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const progressBar = document.getElementById('progress-bar');
+        const progressContainer = document.getElementById('progress-container');
+        const currentTimeEl = document.getElementById('current-time');
+        const durationEl = document.getElementById('duration');
+        const currentSongEl = document.getElementById('current-song');
+        const currentArtistEl = document.getElementById('current-artist');
+        const playlistItems = document.querySelectorAll('.playlist-item');
+        
+        let isPlaying = false;
+        let songIndex = 0;
+        
+        // Songs array with local file paths
+        const songs = [
+            {
+                title: "Dandelion",
+                artist: "Ruth B",
+                src: "dandelion.mp3"
+            },
+            {
+                title: "Happy Birthday",
+                artist: "Traditional",
+                src: "happy-birthday.mp3"
+            },
+            {
+                title: "Celebration",
+                artist: "Kool & The Gang",
+                src: "celebration.mp3"
+            },
+            {
+                title: "Best Day Of My Life",
+                artist: "American Authors",
+                src: "best-day.mp3"
+            }
+        ];
+        
+        // Load song
+        function loadSong(song) {
+            audio.src = song.src;
+            currentSongEl.textContent = song.title;
+            currentArtistEl.textContent = song.artist;
+            
+            // Update active playlist item
+            playlistItems.forEach((item, index) => {
+                if (index === songIndex) {
+                    item.classList.add('active');
+                } else {
+                    item.classList.remove('active');
+                }
+            });
+        }
+        
+        // Play song
+        function playSong() {
+            isPlaying = true;
+            playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
+            audio.play().catch(e => {
+                console.log("Audio play failed:", e);
+                // If autoplay is blocked, show a message
+                alert("Please click the play button to start the music");
+            });
+        }
+        
+        // Pause song
+        function pauseSong() {
+            isPlaying = false;
+            playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+            audio.pause();
+        }
+        
+        // Previous song
+        function prevSong() {
+            songIndex--;
+            if (songIndex < 0) {
+                songIndex = songs.length - 1;
+            }
+            loadSong(songs[songIndex]);
+            if (isPlaying) {
+                playSong();
+            }
+        }
+        
+        // Next song
+        function nextSong() {
+            songIndex++;
+            if (songIndex > songs.length - 1) {
+                songIndex = 0;
+            }
+            loadSong(songs[songIndex]);
+            if (isPlaying) {
+                playSong();
+            }
+        }
+        
+        // Update progress bar
+        function updateProgress(e) {
+            const { duration, currentTime } = e.srcElement;
+            const progressPercent = (currentTime / duration) * 100;
+            progressBar.style.width = `${progressPercent}%`;
+            
+            // Update time
+            currentTimeEl.textContent = formatTime(currentTime);
+            
+            if (duration) {
+                durationEl.textContent = formatTime(duration);
+            }
+        }
+        
+        // Set progress bar on click
+        function setProgress(e) {
+            const width = this.clientWidth;
+            const clickX = e.offsetX;
+            const duration = audio.duration;
+            
+            audio.currentTime = (clickX / width) * duration;
+        }
+        
+        // Format time
+        function formatTime(seconds) {
+            if (isNaN(seconds)) return "0:00";
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+        }
+        
+        // Event listeners
+        playPauseBtn.addEventListener('click', () => {
+            isPlaying ? pauseSong() : playSong();
+        });
+        
+        prevBtn.addEventListener('click', prevSong);
+        nextBtn.addEventListener('click', nextSong);
+        
+        audio.addEventListener('timeupdate', updateProgress);
+        audio.addEventListener('ended', nextSong);
+        
+        progressContainer.addEventListener('click', setProgress);
+        
+        // Click on playlist item
+        playlistItems.forEach((item, index) => {
+            item.addEventListener('click', () => {
+                songIndex = index;
+                loadSong(songs[songIndex]);
+                playSong();
+            });
+        });
+        
+        // Load first song
+        loadSong(songs[songIndex]);
+    </script>
+</body>
+</html>
